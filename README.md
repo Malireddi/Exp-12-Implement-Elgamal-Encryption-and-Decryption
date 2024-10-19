@@ -37,6 +37,8 @@ long long int modExp(long long int base, long long int exp, long long int mod) {
 int main() {
     long long int p, g, privateKeyA, publicKeyA;
     long long int k, message, c1, c2, decryptedMessage;
+    
+    printf("Nandyala Malyadri Reddy - 212223100037 \n");
 
     // Step 1: Input a large prime number (p) and a generator (g)
     printf("Enter a large prime number (p): ");
